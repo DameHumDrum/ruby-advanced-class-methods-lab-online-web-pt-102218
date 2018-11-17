@@ -35,9 +35,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    song_file = self.create
-    song_file.artist_name = filename
-    son_file.name = filename
+
   end
 
   def self.all
